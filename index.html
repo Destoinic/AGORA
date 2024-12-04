@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>agoraproject</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <h1 class="navbar__logo">AGORA</h1>
+        <div class="navbar__menu">
+          <a href="#" class="menu__item">echipa</a>
+          <a href="#" class="menu__item">contact</a>
+        </div>
+      </nav>
+
+      <nav class="filterbar">
+        <button class="item item--rezidential" data-project-type="rezidential">
+          <img src="./public/rezidential.png" alt="rezidential-image" />
+
+          <span class="item__text">rezidential</span>
+        </button>
+
+        <button class="item item--industrial" data-project-type="industrial">
+          <img src="./public/industrial.png" alt="industrial-image" />
+
+          <span class="item__text">industrial</span>
+        </button>
+        <button class="item item--comercial" data-project-type="comercial">
+          <img src="./public/comercial.png" alt="comercial-image" />
+          <span class="item__text">comercial</span>
+        </button>
+
+        <button class="item item--design" data-project-type="design">
+          <img src="./public/design.png" alt="design-image" />
+
+          <span class="item__text">design</span>
+        </button>
+        <button class="item item--planning" data-project-type="planning">
+          <img src="./public/planning.png" alt="planning-image" />
+
+          <span class="item__text">planning</span>
+        </button>
+        <button class="item item--outlet" data-project-type="outlet">
+          <img src="./public/outlet.png" alt="outlet-image" />
+
+          <span class="item__text">outlet</span>
+        </button>
+      </nav>
+
+      <div class="image-grid">
+        <img class="project" src="/public/project1.png" alt="" />
+        <img class="project rezidential" src="/public/project1.png" alt="" />
+        <img class="project rezidential" src="/public/project1.png" alt="" />
+        <img class="project rezidential" src="/public/project1.png" alt="" />
+
+        <img class="project industrial" src="./public/project2.png" alt="" />
+        <img class="project industrial" src="./public/project2.png" alt="" />
+        <img class="project industrial" src="./public/project2.png" alt="" />
+        <img class="project industrial" src="./public/project2.png" alt="" />
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
